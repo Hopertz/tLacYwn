@@ -4,6 +4,11 @@ import (
 	"math"
 )
 
+// Question
+// Given two crystal balls that will break if dropped from high enough
+// distance, determine the exact spot in which it will break in the most
+// optimized way.
+
 func two_crystall_balls(array []bool) int {
 
 	arrayLength := float64(len(array))
